@@ -1,3 +1,4 @@
 # practicejs
 
-Szilvassy Bence
+let message = "Hello world!";
+console.log(message);
