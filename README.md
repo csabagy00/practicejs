@@ -1,1 +1,3 @@
 # practicejs
+
+Szilvassy Bence
