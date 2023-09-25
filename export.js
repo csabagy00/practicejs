@@ -1,0 +1,1 @@
+export let cars = ["audi", "toyota", "ferrari"]

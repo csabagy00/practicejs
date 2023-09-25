@@ -1,20 +1,32 @@
-let teams = ["Arsenal", "Liverpool", "Manchester City", "Manchester United", "Chelsea", "Tottenham"];
+
+let teamDB = [{
+    player: [
+        {attacker: ["Martinelli" , "Saka" , "Jesus"]},
+        {defender: "Gabriel"},
+    ],
+    team: "Arsenal",
+    city: "London",
+    ranking: "Excellent"},
+    {   
+    player: [
+        {attacker: ["Salah" , "Nunez" , "Luis Diaz"]},
+        {defender: "van Dijk"}
+    ],
+    team: "Liverpool",
+    city: "Liverpool",
+    ranking: "Excellent"}
+];
+
+//console.log(teamDB);
+
+for (let teams of teamDB) {
+    //if (team.ranking === "Excellent") {
+        console.log(teams.player)
+}
 
 
-let players = ["Martinelli", "Salah", "Haaland", "Rashford", "Kane"];
 
-let random = Math.floor(Math.random()*6);
 
-//console.log(team[randomTeam]);
 
-//console.log(teams);
-
-//console.log(players);
-
-let randomTeam = teams[random];
-
-let randomPlayer = players[random];
-
-console.log(teams[random]) + " " + console.log(players[random]);
 
 
